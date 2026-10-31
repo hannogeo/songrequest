@@ -42,7 +42,6 @@ pip install spotipy groq
 ### 3. Run the setup wizard
 ```bash
 python app.py
-# or: sr
 ```
 On first run you will be asked for:
 - Twitch Client ID
@@ -58,7 +57,7 @@ Config is stored in `~/.songrequest/config.json`. Run `python app.py --setup` to
 ## Usage
 
 ```bash
-python app.py        # or: sr
+python app.py        # run the bot
 python app.py --setup # re-run the setup wizard
 ```
 
